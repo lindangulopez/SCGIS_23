@@ -1,0 +1,112 @@
+﻿QGIS is a continually expanding, freely available, and open-source geospatial software that significantly contributes to scientific development. It is a powerful software tool used for analysing, managing, and visualising geospatial data. Its open-source nature allows users to access and modify the source code, promoting collaboration and innovation within the geospatial community. The software has gained popularity due to its versatility, user-friendly interface, and extensive set of features.
+
+
+By being free and open-source, QGIS democratises access to geospatial technology, enabling researchers, scientists, and professionals from various disciplines to leverage its capabilities. It plays a vital role in scientific development by providing the means to study and understand the Earth's physical and social processes, natural resources, urban planning, environmental management, and many other fields.
+
+
+QGIS's constant growth implies that it is continuously evolving, with regular updates and enhancements being made by its dedicated community of developers and contributors. This ensures that the software remains up-to-date, incorporating the latest advancements in geospatial technology and addressing user needs and emerging challenges.
+
+
+Overall, QGIS is a dynamic and essential tool in the geospatial domain, fostering scientific development by providing a free and open platform for geospatial analysis, research, and collaboration.
+________________
+
+
+Low-Code as Enabler of Digital Transformation in the Global South: 
+
+
+Accessible and Cost-effective Solution
+Spatial Data Management
+Spatial Data Management
+Custom Application Development
+Integration with Open Data Sources
+Capacity Building and Knowledge Transfer
+Supporting Participatory Planning
+Mobile Data Collection
+
+
+QGIS (Quantum Geographic Information System) is an open-source, cross-platform geographic information system (GIS) software. It plays a significant role as a low-code tool in enabling digital transformation, particularly in the Global South. Here's an overview of how QGIS can contribute to digital transformation in this context:
+
+
+Accessible and Cost-effective Solution: QGIS being an open-source software, it eliminates licensing costs, making it a cost-effective option for organisations in resource-constrained environments. This accessibility helps bridge the digital divide and enables a broader range of users to leverage GIS capabilities.
+
+
+Spatial Data Management: QGIS allows organisations to collect, manage, analyse, and visualise spatial data, which is crucial for decision-making and planning processes. It provides a low-code environment that enables users to easily import, manipulate, and display various types of geospatial data.
+
+
+Custom Application Development: QGIS supports the development of custom applications through its application programming interface (API) and plugins. Using QGIS as a low-code tool, developers can create tailored geospatial applications and workflows to address specific needs in the Global South. These applications can range from land management systems to disaster risk assessment tools, promoting efficient and effective decision-making.
+
+
+Integration with Open Data Sources: QGIS can connect to various open data sources, including global data repositories, national databases, and community-contributed data. By integrating with these sources, QGIS facilitates the use of up-to-date and relevant information in decision-making processes, supporting sustainable development initiatives.
+
+
+Capacity Building and Knowledge Transfer: QGIS's open-source nature encourages knowledge sharing and capacity building. It enables communities and organisations in the Global South to collaborate, exchange expertise, and develop local GIS skills. Through training programs, workshops, and online resources, QGIS empowers users to participate in the digital transformation process, fostering local ownership and sustainability.
+
+
+Supporting Participatory Planning: QGIS can facilitate participatory planning processes, allowing stakeholders to engage in decision-making. By integrating local knowledge and community data, QGIS enables more inclusive and context-aware development strategies, ensuring that the digital transformation benefits all segments of society.
+
+
+Mobile Data Collection: QGIS offers mobile data collection capabilities through its integration with various field data collection applications. This feature is particularly valuable in the Global South, where mobile devices are prevalent, but access to traditional infrastructure is limited. QGIS allows users to collect data in the field, sync it with their GIS projects, and make real-time decisions based on accurate and timely information.
+
+
+________________
+
+
+The development of scientific production using QGIS is on the rise: 
+
+
+Motivation: 
+
+
+* Knowledge sharing
+* Reduced technical debt
+* Faster code reviews
+* Faster onboarding and time to value
+
+
+Recent research to weight the acceptance of this software and how it has evolved through time, from 2005 to 2020 of around a thousand manuscripts, found that the  annual rate of publications increase was over 40%. Seventy-two percent of the publications were  included in six fields of study, Earth and Planetary Sciences the most representative. There is a favourable trend in the acceptance of QGIS across the world and a widespread development of collaborative networks. The USA was the most influential country, and there are a large number of papers from Portugal, Italy, Brazil, and France. 
+
+
+Why QGIS is the most popular free geospatial software in the world. 
+
+
+QGIS belongs to the Open-Source Geospatial Foundation (OSGeo). Among the main strengths of this Geographic Information Systems are: the incorporation of tools via plugins, and a community of users and developers in constant growth. 
+
+
+Open-Source Nature: QGIS is an open-source software, which means it provides a platform for researchers and scientists to access and modify the source code according to their specific needs. This flexibility allows them to adapt and enhance the software's functionalities for scientific research purposes, making it an attractive option for scientific production.
+
+
+Wide Range of GIS Functionality: QGIS offers a wide range of geographic information system (GIS) functionalities that are essential for scientific research. It provides tools for spatial data analysis, geoprocessing, cartography, and visualization, enabling researchers to analyze and present spatial patterns, relationships, and trends in their studies.
+
+
+Integration with Other Scientific Tools: QGIS can be integrated with various scientific tools and libraries, allowing researchers to combine GIS capabilities with other specialized software or algorithms. This integration enables the incorporation of spatial analysis and visualization into broader scientific workflows, enhancing the quality and depth of research outputs.
+
+
+Advanced Spatial Analysis Techniques: QGIS supports advanced spatial analysis techniques, including spatial statistics, interpolation, network analysis, and geostatistics. These techniques are crucial for many scientific disciplines, such as ecology, geology, environmental science, urban planning, epidemiology, and archaeology. By providing a platform for applying these techniques, QGIS enables researchers to conduct sophisticated spatial analyses and derive meaningful insights from their data.
+
+
+Community Support and Collaboration: QGIS has a large and active user community consisting of researchers, scientists, and GIS professionals. This community actively contributes to the development of QGIS by creating plugins, sharing workflows, providing technical support, and collaborating on research projects. The collective knowledge and expertise of the community foster innovation and help researchers overcome challenges in their scientific endeavors.
+
+
+Accessibility and Cost-effectiveness: QGIS being open-source and freely available eliminates licensing costs, making it accessible to researchers and scientific institutions with limited budgets. This accessibility encourages broader adoption and usage of QGIS in scientific production, contributing to its growing popularity.
+
+
+Reproducibility and Open Science: QGIS promotes reproducibility and open science by providing a transparent and customizable environment for scientific research. Researchers can document and share their workflows, methods, and data processing steps using QGIS, allowing others to replicate and verify their findings. This aspect of QGIS aligns with the principles of open science, enhancing collaboration, knowledge sharing, and the advancement of scientific knowledge.
+________________
+
+
+The software's capabilities in spatial analysis, data management, and customization can contribute to BBEES's mission in several ways:
+
+
+Spatial Analysis: The software can help BBEES analyze and understand spatial patterns and relationships within biodiversity data. It can provide tools for mapping and visualizing species distributions, habitat suitability, and other spatially-relevant information. This analysis can support biodiversity conservation efforts, identify areas of high conservation value, and inform land-use planning decisions.
+
+
+Data Management: The software can assist BBEES in effectively managing large and complex biodiversity datasets. It can provide features for data organization, quality control, and integration from various sources. The software can support data standardization and facilitate data sharing and collaboration among different research units and institutions. It can also enable data versioning, data provenance tracking, and data security, ensuring the integrity and longevity of biodiversity data.
+
+
+Customization: The software can be tailored to meet the specific needs and requirements of BBEES and its users. It can be customized to incorporate domain-specific data models, taxonomies, and workflows relevant to biodiversity research. The software's customization capabilities allow BBEES to adapt and evolve its data management and analysis processes as new technologies and methodologies emerge. It can also facilitate the development of specialized tools and functionalities that address unique research challenges in the field of biodiversity.
+
+
+Support for the Data Lifecycle: The software can assist BBEES in managing data throughout its entire lifecycle, from data collection and organization to analysis and dissemination. It can provide features for data entry, validation, and transformation, ensuring data consistency and quality. The software can also facilitate data discovery and access, enabling researchers to find and retrieve relevant biodiversity datasets. Furthermore, the software can support data publication and sharing, allowing BBEES to contribute to the broader scientific community and promote open and reproducible research practices.
+
+
+In summary, the software's capabilities in spatial analysis, data management, and customization can enhance BBEES's ability to organize, analyze, and share biodiversity data. This, in turn, supports BBEES's mission of providing technical and scientific support for biodiversity research and facilitating the long-term preservation and collaboration around biodiversity databases.

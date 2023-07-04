@@ -1,0 +1,148 @@
+﻿User Conference & Contributor Meeting
+The QGIS User Conference '23 is an international 2-day *in person*. The last was held in April,  in The Netherlands. There were presentations and workshops to update users' QGIS knowledge.  Afterwards the 25th QGIS Contributor Meeting took place. In this event for people who contribute to the development of QGIS. It's free to join but you are expected to make yourself useful on improving the QGIS application, documentation or website or anything else QGIS will benefit from.
+
+
+QGIS is free software and you are under no obligation to pay anything to use it, but you can sponsor the project. The QGIS project aims to empower people with spatial decision-making tools which will result in a better society.  
+________________
+
+
+QGIS plays a significant role in supporting the humanitarian work of organizations like the Red Cross by providing powerful geospatial analysis tools, data visualization capabilities, and open-source accessibility. Here are some ways QGIS assists the humanitarian work of the Red Cross:
+
+
+Disaster response and preparedness: During emergencies and disasters, QGIS enables Red Cross teams to quickly analyze and visualize geospatial data to assess the affected areas, identify vulnerable populations, and plan response efforts. QGIS allows users to overlay various data layers such as population density, infrastructure, and hazard maps to gain a comprehensive understanding of the situation on the ground.
+
+
+Spatial data management: QGIS provides a platform for managing and organizing spatial data collected during humanitarian operations. It allows Red Cross teams to create and maintain geodatabases, integrate different data sources, and conduct data quality assessments. QGIS also facilitates data sharing and collaboration among team members and stakeholders.
+
+
+Mapping and visualization: QGIS offers powerful cartographic tools that enable the Red Cross to create high-quality maps for situational awareness, resource allocation, and reporting. It supports the creation of thematic maps, heat maps, and interactive web maps, making it easier to communicate critical information to decision-makers and the affected communities.
+
+
+Risk and vulnerability assessment: QGIS aids the Red Cross in conducting risk and vulnerability assessments by integrating various data layers such as socio-economic indicators, climate data, and hazard information. The software's geospatial analysis capabilities allow for identifying high-risk areas, understanding exposure patterns, and prioritizing interventions to mitigate risks.
+
+
+Capacity building and training: QGIS's open-source nature and user-friendly interface make it an ideal tool for capacity building and training programs. Red Cross staff and volunteers can learn and develop their geospatial analysis skills through QGIS training workshops and online resources. This empowers them to utilize spatial data effectively in their humanitarian work.
+
+
+Collaboration and knowledge sharing: QGIS fosters collaboration and knowledge sharing within the Red Cross community and with other humanitarian organizations. As an open-source software, QGIS allows for customization and extension, enabling Red Cross teams to develop specific tools and workflows tailored to their needs. Additionally, the QGIS community actively shares plugins, tutorials, and best practices, facilitating learning and innovation.
+
+
+Overall, QGIS provides the Red Cross with a versatile and accessible geospatial platform that enhances their ability to respond to emergencies, conduct assessments, and make informed decisions. Its capabilities contribute to the effectiveness and efficiency of humanitarian operations, ultimately assisting the Red Cross in fulfilling its mission of alleviating human suffering and promoting resilience in communities worldwide.
+________________
+
+
+The Association QGIS Peru plays a significant role in promoting GIS (Geographic Information System) networks in Latin America and Europe. Here are some ways in which the association contributes to the development and collaboration of GIS networks:
+
+
+Knowledge sharing and capacity building: The Association QGIS Peru organizes workshops, conferences, and training programs to share knowledge and build capacity in GIS. These events provide a platform for professionals, researchers, and enthusiasts from Latin America and Europe to exchange ideas, best practices, and innovative solutions in the field of geospatial technology.
+
+
+Networking opportunities: The association creates networking opportunities for GIS practitioners and organizations by bringing together individuals and institutions interested in GIS. This facilitates collaborations, partnerships, and the exchange of experiences, fostering the growth of GIS networks within and between Latin America and Europe.
+
+
+Collaboration with other organizations: The Association QGIS Peru actively collaborates with other GIS-related organizations in Latin America and Europe to promote cooperation and synergy. By partnering with local and regional entities, the association strengthens the GIS community and enhances cross-border collaborations.
+
+
+Advocacy and promotion: The association advocates for the use and adoption of QGIS and other open-source GIS technologies. By promoting the benefits of open-source GIS software, the association encourages the development of GIS networks and communities, making geospatial technology more accessible and affordable to a wider audience.
+
+
+Supporting local GIS initiatives: The Association QGIS Peru supports local GIS initiatives by providing guidance, technical assistance, and resources. They assist in the establishment of user groups, contribute to the localization of QGIS software, and encourage the development of regional-specific tools and datasets. This helps in fostering GIS networks at the grassroots level and addressing local challenges through geospatial solutions.
+
+
+Participation in international events: The association actively participates in international GIS events, conferences, and forums. This involvement provides a platform to showcase the work of GIS professionals from Latin America and Europe, strengthens international connections, and facilitates knowledge exchange on a global scale.
+
+
+By promoting GIS networks in Latin America and Europe, the Association QGIS Peru plays a crucial role in fostering collaboration, sharing expertise, and advancing the field of geospatial technology. Their efforts contribute to the growth and development of GIS communities, ultimately benefiting individuals, organizations, and societies in both regions.
+________________
+
+
+To find small-scale sport spots in suburban areas using QGIS, you can follow these general steps:
+
+
+Acquire or create relevant spatial data: Obtain or create a dataset that includes spatial information about sport spots or potential areas where small-scale sports activities can be conducted. This data could include parks, open spaces, community centers, schools, or any other locations suitable for sports.
+
+
+Import the spatial data into QGIS: Import the spatial dataset into QGIS by adding it as a layer. QGIS supports various file formats such as shapefiles, GeoJSON, or geodatabases. You can use the "Add Vector Layer" option to load the dataset into your project.
+
+
+Filter the data: Apply filters or queries to narrow down the dataset to specific features or attributes related to small-scale sport spots. For example, you might filter for areas with specific amenities like basketball courts, tennis courts, or open fields suitable for sports activities.
+
+
+Symbolize and style the sport spots: Customize the appearance of the filtered features to make them visually distinguishable. You can use QGIS's styling options to assign different colors, icons, or symbols to represent different types of sport spots.
+
+
+Perform spatial analysis: Utilize QGIS's spatial analysis tools to further analyze the sport spots. You can conduct proximity analysis to identify spots within a certain distance from specific locations or analyze the distribution of sport spots within the suburban areas.
+
+
+Add additional context layers: Enhance your analysis by adding relevant context layers such as road networks, population density, or land use information. This can provide a better understanding of the accessibility and suitability of the sport spots in relation to the surrounding suburban areas.
+
+
+Explore and visualize the results: Interact with the map and explore the identified sport spots in the suburban areas. Utilize QGIS's visualization capabilities to create maps that clearly display the small-scale sport spots and any additional information you want to showcase.
+
+
+Share and disseminate the results: Generate maps or reports using QGIS's layout design tools and share them with relevant stakeholders or communities. This can help inform decision-making processes, promote awareness of available sport spots, and encourage community engagement in sports activities.
+
+
+Remember that the availability and accuracy of the spatial data will influence the quality of your analysis. Obtaining accurate and up-to-date data about sport spots in suburban areas is essential for reliable results. Additionally, customization and specific workflows may vary depending on the specific requirements and available data in your study area.
+________________
+
+
+Publishing maps with QGIS Server allows you to make your maps accessible over the internet as web services. Here's a general guide on how to publish maps using QGIS Server:
+
+
+Prepare your QGIS project: Ensure that your QGIS project is properly set up and contains all the necessary data layers, symbology, and any other elements you want to include in your published map.
+
+
+Install and configure QGIS Server: Install QGIS Server on your server or hosting environment. Follow the installation instructions specific to your operating system and web server software. Once installed, configure the QGIS Server settings, including the paths to your QGIS project files.
+
+
+Set up web services: QGIS Server supports various web service protocols, such as WMS (Web Map Service), WFS (Web Feature Service), and WCS (Web Coverage Service). Choose the appropriate service(s) for your needs and enable them in the QGIS Server configuration. Configure the service settings, such as URL paths, authentication, and access permissions.
+
+
+Test the services: Verify that your QGIS Server is functioning correctly by accessing the provided URLs for your web services in a web browser. You should be able to view your map as an image (WMS), access feature data (WFS), or retrieve raster data (WCS) depending on the service(s) you enabled.
+
+
+Customize service settings: Fine-tune the service settings based on your requirements. You can configure options such as image formats, spatial reference systems, bounding box limits, and layer visibility.
+
+
+Secure your services (optional): If required, implement security measures to protect your published maps. This may involve setting up authentication, access controls, SSL encryption, or other security mechanisms provided by your web server software.
+
+
+Document and promote your services: Provide documentation and metadata about your published maps and services. Include information about the available layers, symbology, supported operations, and any limitations or usage guidelines. Promote your services by sharing the URLs with your intended audience or embedding the maps in web applications.
+
+
+Monitor and maintain your services: Regularly monitor the performance and availability of your QGIS Server services. Keep your QGIS project and data up to date, and make any necessary updates or improvements to your services based on user feedback or changing requirements.
+
+
+It's important to note that the specific steps and configuration details may vary depending on your server environment, web server software, and the version of QGIS Server you are using. Consult the official QGIS Server documentation and online resources for more detailed instructions and guidance specific to your setup.
+________________
+
+
+QFieldCloud is a powerful tool that enables efficient collaboration in the field for data collection and management using QGIS. It facilitates the seamless exchange of geospatial data between field workers and the central office, streamlining workflows and enhancing productivity. Here are some key features and benefits of QFieldCloud:
+
+
+Real-time data synchronization: QFieldCloud enables real-time synchronization of data between field devices and the central office. Field workers can collect and update data using QField, a mobile app that integrates with QGIS. Changes made in the field are automatically synchronized with the central database, ensuring that everyone has access to the most up-to-date information.
+
+
+Seamless collaboration: QFieldCloud allows multiple field workers to collaborate on a project simultaneously. They can view and edit the same dataset, ensuring that everyone is working with the same information. This promotes teamwork and reduces the risk of data discrepancies or duplication.
+
+
+Data validation and quality control: QFieldCloud includes features for data validation and quality control. Field workers can set up validation rules and constraints to ensure data integrity and accuracy during data collection. The central office can review and validate the collected data, providing feedback or making necessary corrections in real-time.
+
+
+Offline capabilities: QField, the mobile app integrated with QFieldCloud, supports offline data collection. Field workers can download the necessary data to their devices and continue collecting data even when there is no internet connection. Once they are back online, the data is automatically synchronized with the central office.
+
+
+Customizable forms and workflows: QFieldCloud allows the creation of custom forms and workflows tailored to specific data collection needs. Field workers can capture data using customized forms that include relevant fields, attribute forms, dropdown menus, and other input options. This flexibility ensures that the collected data matches the specific requirements of the project.
+
+
+Secure data storage and access control: QFieldCloud provides secure storage for geospatial data, protecting it from unauthorized access or loss. Access control mechanisms can be implemented to manage user permissions and restrict data access to authorized individuals or groups. This ensures data security and privacy.
+
+
+Integration with QGIS ecosystem: QFieldCloud seamlessly integrates with the broader QGIS ecosystem, allowing field workers to leverage the powerful geospatial analysis and visualization capabilities of QGIS. They can access and interact with QGIS projects and maps directly from their mobile devices, enhancing data interpretation and decision-making in the field.
+
+
+Streamlined data sharing and reporting: QFieldCloud simplifies the process of sharing data and generating reports. Field workers can generate reports or extract data from their devices in various formats, such as PDF or CSV, and share them with the central office or stakeholders. This facilitates efficient communication and supports evidence-based decision-making.
+
+
+QFieldCloud significantly improves collaboration and efficiency in field data collection and management. By leveraging its features, organizations can streamline workflows, enhance data quality, and ensure real-time access to accurate geospatial information, ultimately improving productivity and decision-making processes.
