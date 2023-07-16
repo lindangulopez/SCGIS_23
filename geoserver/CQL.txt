@@ -1,0 +1,48 @@
+#### Filter & Geometry Functions: https://docs.geoserver.org/main/en/user/tutorials/cql/cql_tutorial.html?highlight=cql
+
+CQL (Common Query Language) is a query language created by the OGC for the Catalogue Web Services specification. Unlike the XML-based Filter Encoding language, CQL is written using a familiar text-based syntax. It is thus more readable and better-suited for manual authoring.
+
+However, CQL has some limitations. For example it cannot encode id filters, and it requires an attribute to be on the left side of any comparison operator. For this reason, GeoServer provides an extended version of CQL called ECQL. ECQL removes the limitations of CQL, providing a more flexible language with stronger similarities with SQL.
+
+GeoServer supports the use of both CQL and ECQL in WMS and WFS requests, as well as in GeoServer’s SLD dynamic symbolizers. Whenever the documentation refers to CQL, ECQL syntax can be used as well (and if not, please report that as a bug!).
+
+This tutorial introduces the CQL/ECQL language by example. For a full reference, refer to the ECQL Reference.
+
+Getting started
+The following examples use the topp:states sample layer shipped with GeoServer. They demonstrate how CQL filters work by using the WMS CQL_FILTER vendor parameter to alter the data displayed by WMS requests. The easiest way to follow the tutorial is to open the GeoServer Map Preview for the topp:states layer. Click on the Options button at the top of the map preview to open the advanced options toolbar. The example filters can be entered in the Filter: CQL box.
+
+####### demo: http://localhost:8080/geoserver/richland_postgres/wms?service=WMS&version=1.1.0&request=GetMap&layers=richland_postgres%3Abk79&bbox=468169.09375%2C3733539.25%2C537365.875%2C3791758.25&width=768&height=646&srs=EPSG%3A26917&styles=&format=application/openlayers
+
+- {pop > 200} apply
+
+URL : http://localhost:8080/geoserver/richland_postgres/wms?service=WMS
+
+&version=1.1.0
+
+&request=GetMap
+
+&layers=richland_postgres%3Abk79
+
+&bbox=468169.09375%2C3733539.25%2C537365.875%2C3791758.25
+
+&width=768
+
+&height=646
+
+&srs=EPSG%3A26917
+
+&styles=
+
+&format=application/openlayers#
+
+&CQL_FILTER=pop<200
+
+### EDIT URL
+{http://localhost:8080/geoserver/richland_postgres/wms?service=WMS&version=1.1.0&request=GetMap&layers=richland_postgres%3Abk79&bbox=468169.09375%2C3733539.25%2C537365.875%2C3791758.25&width=768&height=646&srs=EPSG%3A26917&styles=&CQL_FILTER=pop%3C200&format=application/openlayers#}
+
+## CQL geom filter
+
+{
+...
+CQL_FILTER=DWITIN(geometry,collectGeometries(queryCollection('richland_postgres:tri92','geometry','name="LINDAU CHEMICAL"')),5000,meters)
+}
