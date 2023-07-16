@@ -1,0 +1,17 @@
+### postgis
+- create DB and restore with backup on PgAdmin
+- create a new workspace on GeoServer
+- create a new PostGIS store on GeoServer
+- add layer
+- publish 
+- preview : http://localhost:8080/geoserver/richland_postgres/wms?service=WMS&version=1.1.0&request=GetMap&layers=richland_postgres%3Abk79&bbox=468169.09375%2C3733539.25%2C537365.875%2C3791758.25&width=768&height=646&srs=EPSG%3A26917&styles=&format=application/openlayers
+- style on GeoServer
+- copy service: http://localhost:8080/geoserver/richland_postgres/wms?
+- add layers on QGIS
+- create a layer group on GeoServer
+- add layers & check default style
+- reorganise order
+
+http://localhost:8080/geoserver/richland_postgres/wms?service=WMS&version=1.1.0&request=GetMap&layers=richland_postgres%3Arichland_group&bbox=493953.2663589147%2C3749141.0695131645%2C533158.3095128253%2C3782055.8229418285&width=768&height=644&srs=EPSG%3A26917&styles=&format=application/openlayers#toggle
+
+
