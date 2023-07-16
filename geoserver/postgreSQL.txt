@@ -14,4 +14,48 @@
 
 http://localhost:8080/geoserver/richland_postgres/wms?service=WMS&version=1.1.0&request=GetMap&layers=richland_postgres%3Arichland_group&bbox=493953.2663589147%2C3749141.0695131645%2C533158.3095128253%2C3782055.8229418285&width=768&height=644&srs=EPSG%3A26917&styles=&format=application/openlayers#toggle
 
+simple query ok {
 
+SELECT schools.* FROM
+schools
+}
+
+OpenLayers: http://localhost:8080/geoserver/richland_postgres/wms?service=WMS&version=1.1.0&request=GetMap&layers=richland_postgres%3Aschool_query&bbox=480694.2187500989%2C3744962.499968123%2C526891.8749998632%2C3786025.2499706126&width=768&height=682&srs=EPSG%3A26917&styles=&format=application/openlayers
+
+###### deconstruction: 
+http://localhost:8080/geoserver/richland_postgres/wms?service=WMS
+- &version=1.1.0 
+- &request=GetMap 
+- &layers=richland_postgres%3Aschool_query 
+- &bbox=480694.2187500989%2C3744962.499968123%2C526891.8749998632%2C3786025.2499706126&width=768 
+- &height=682 
+- &srs=EPSG%3A26917 
+- &styles=
+- &format=application/openlayers
+
+QUERY no semi-colon {
+SELECT schools.* FROM
+schools WHERE type ='ELEM'
+}
+
+
+{
+
+SELECT schools.* FROM 
+schools, tri92
+WHERE 
+st_dwithin(schools.geometry,tri92.geometry,5000)
+AND tri92."name"='LINDAU CHEMICAL'
+
+http://localhost:8080/geoserver/richland_postgres/wms?service=WMS&version=1.1.0
+- &request=GetMap 
+- &layers=richland_postgres%3Aschool_LC_5000 - &bbox=497493.8437500125%2C3758925.2499689534%2C500977.5624999953%2C3763029.4999691993 
+- &width=651 
+- &height=768 
+- &srs=EPSG%3A26917 
+- &styles= 
+- &format=application/openlayers
+}
+
+## with parameters : 
+{ http://localhost:8080/geoserver/richland_postgres/wms?service=WMS&version=1.1.0&request=GetMap&layers=richland_postgres%3Aschool_query_df&bbox=497493.8437500125%2C3758925.2499689534%2C500977.5624999953%2C3763029.4999691993&width=651&height=768&srs=EPSG%3A26917&styles=&format=application/openlayers}
