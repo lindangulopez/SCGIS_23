@@ -1,0 +1,23 @@
+#### search & execute geoserver
+
+### go to http://localhost:8080/geoserver/web/?1
+
+##### workspace: http://localhost:8080/geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspacePage?4&filter=false
+- groups similar layers together
+- C:\ProgramData\GeoServer\data_dir\workspaces
+
+##### store: http://localhost:8080/geoserver/web/wicket/bookmarkable/org.geoserver.web.data.store.StorePage?6&filter=false
+- connect to a data source (raster-file, vector-file_database-server)
+- data: C:\ProgramData\GeoServer\data_dir\data
+
+##### layers : http://localhost:8080/geoserver/web/wicket/bookmarkable/org.geoserver.web.data.layer.LayerPage?11&filter=false
+
+
+##### layer preview: http://localhost:8080/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?19&filter=false
+- http://localhost:8080/geoserver/topp/wms?service=WMS&version=1.1.0&request=GetMap&layers=topp%3Astates&bbox=-124.73142200000001%2C24.955967%2C-66.969849%2C49.371735&width=768&height=330&srs=EPSG%3A4326&styles=&format=application/openlayers
+
+
+##### styles: http://localhost:8080/geoserver/web/wicket/bookmarkable/org.geoserver.wms.web.data.StylePage?20&filter=false
+
+
+##### layer group: http://localhost:8080/geoserver/web/wicket/bookmarkable/org.geoserver.web.data.layergroup.LayerGroupPage?23&filter=false
