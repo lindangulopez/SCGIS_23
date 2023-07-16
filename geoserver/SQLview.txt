@@ -1,0 +1,27 @@
+### create SQL View
+
+- add new layer : http://localhost:8080/geoserver/web/wicket/bookmarkable/org.geoserver.web.data.layer.SQLViewNewPage?115&wsName=richland_postgres&storeName=richland_pg
+
+### On pgAdmin : 
+SQL {
+
+CREATE VIEW schoolquery AS
+SELECT schools.* FROM
+schools, tri92
+WHERE st_dwithin(schools.geometry,tri92.geometry, 5000 ) AND tri92.name='LINDAU CHEMICAL';
+
+}
+### On GeoServer : 
+
+PLACEHOLDERS {
+
+SELECT schools.* FROM
+schools, tri92
+WHERE st_dwithin(schools.geometry,tri92.geometry, %d% ) AND tri92.name='%f%';
+
+}
+
+- guess parameters
+- add default values
+- Guess geometry type and srid *bug*
+- REFRESH
