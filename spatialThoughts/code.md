@@ -34,7 +34,7 @@ distance = d.measureLine([point1, point2])
 print(distance/1000)
 
 ```
-### Distance Conversion: 
+### [Distance Conversion](https://qgis.org/pyqgis/3.28/core/QgsUnitTypes.html#qgis.core.QgsUnitTypes.DistanceUnit): 
 
 ```
 from qgis.core import QgsDistanceArea
@@ -61,4 +61,17 @@ print('Distance in kilometers', distance_km)
 
 distance_mi = d.convertLengthMeasurement(distance, QgsUnitTypes.DistanceMiles)
 print('Distance in miles', distance_mi)
+```
+
+### [Building a Dialog Box](https://wiki.python.org/moin/PyQt): 
+
+```
+mb = QMessageBox()
+mb.setText('Click OK to confirm')
+mb.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
+return_value = mb.exec()
+if return_value == QMessageBox.Ok:
+    print('You pressed OK')
+elif return_value == QMessageBox.Cancel:
+    print('You pressed Cancel')
 ```
