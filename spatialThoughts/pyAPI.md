@@ -1,4 +1,4 @@
-[PyQGIS](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/)  is the Python interface to QGIS. It is created using SIP and integrates with PyQt.
+# [PyQGIS](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/)  is the Python interface to QGIS. It is created using SIP and integrates with PyQt.
 
 - QGIS C++ API documentation is available at https://qgis.org/api/3.28/
 - QGIS Python API documentation is available at https://qgis.org/pyqgis/3.28/
@@ -34,3 +34,21 @@ menubar = vector_menu.parentWidget()
 menubar.removeAction(vector_menu.menuAction())
 menubar.removeAction(raster_menu.menuAction())
 ```
+
+## Understanding Signals and Slots
+GUI programming requires responding to user’s actions. All objects in Qt have a mechanism where they can emit a signal when there is a change in status. i.e. when a user clicks a button, or a window is closed. As a programmer, you can connect the signal to a slot (i.e. a python function) which will be called when the signal is emitted. The general syntax for connecting the signal to a slot is <object>.<signal>.connect(function)
+
+### Add A New Menu Item: 
+
+```
+import webbrowser
+
+def open_website():
+    webbrowser.open('https://gis.stackexchange.com')
+
+website_action = QAction('Go to gis.stackexchange')
+website_action.triggered.connect(open_website)
+iface.helpMenu().addSeparator()
+iface.helpMenu().addAction(website_action)
+```
+
