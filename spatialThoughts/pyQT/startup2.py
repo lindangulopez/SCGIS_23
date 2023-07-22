@@ -6,5 +6,6 @@ def customize():
     title = iface.mainWindow().windowTitle()
     iface.mainWindow().setWindowTitle('{} | {}'.format(title,version))
 
-
 iface.initializationCompleted.connect(customize)
+iface.projectRead.connect(customize)
+iface.newProjectCreated.connect(customize)

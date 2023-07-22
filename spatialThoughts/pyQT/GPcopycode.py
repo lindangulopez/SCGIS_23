@@ -1,0 +1,1 @@
+processing.run("native:hillshade", {'INPUT':'C:/Users/BBEES/AppData/Local/Temp/processing_fzmgfp/f920ba0ab098493ebaca5b7484f121d8/OUTPUT.tif','Z_FACTOR':1,'AZIMUTH':300,'V_ANGLE':40,'OUTPUT':'TEMPORARY_OUTPUT'})
