@@ -1,0 +1,3 @@
+C:\Users\BBEES\AppData\Roaming\QGIS\QGIS3
+
+- see statup.py
