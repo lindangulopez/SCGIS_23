@@ -1,0 +1,6 @@
+layer = iface.activeLayer()
+features = layer.getFeatures()
+f = next(features)
+print(f.attributes())
+f = next(features)
+print(f.attributes())
