@@ -2,6 +2,7 @@ import os
 import inspect
 from PyQt5.QtWidgets import QAction
 from PyQt5.QtGui import QIcon
+from qgis.core import QgsRasterLayer, QgsProject
 
 cmd_folder = os.path.split(inspect.getfile(inspect.currentframe()))[0]
 
@@ -16,8 +17,15 @@ class BasemapLoaderPlugin:
         self.action.triggered.connect(self.run)
       
     def unload(self):
-        self.iface.removeToolBarIcon(self.action)
         del self.action
-        
+        self.iface.removeToolBarIcon(self.action)
+
     def run(self):
-        self.iface.messageBar().pushMessage('Hello from Plugin')
+        basemap_url = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
+        uri = f'type=xyz&url={basemap_url}&zmax=19&zmin=0$crs=EPSG:3857'
+        rlayer = QgsRasterLayer(uri, 'OpenStreetMap', 'wms')
+        if rlayer.isValid():
+            QgsProject.instance().addMapLayer(rlayer)
+            self.iface.messageBar().pushSuccess('Success', 'Basemap Layer Loaded')
+        else:
+            self.iface.messageBar().pushCritical('Error', 'Invalid Basemap Layer')
