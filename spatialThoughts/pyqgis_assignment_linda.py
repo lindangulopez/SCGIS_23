@@ -2,11 +2,9 @@ from qgis.PyQt.QtGui import QIcon
 from qgis.PyQt.QtWidgets import QAction
 from qgis.core import QgsRasterInterface
 
-def add_toolbar_button(iface):
+
     # Function to add a button to the Plugins Toolbar with an icon
-    action = QAction(QIcon('path_to_your_icon.png'), 'Show Raster Statistics', iface.mainWindow())
-    action.triggered.connect(show_statistics)
-    iface.addToolBarIcon(action)
+
 
 def show_statistics():
     # Function to calculate and display the raster statistics
@@ -23,17 +21,14 @@ def show_statistics():
     # Get the data provider for the raster layer
     provider = layer.dataProvider()
 
-    # Get the raster interface from the data provider
-    raster_interface = provider.rasterInterface()
-
     # Get the extent of the current map canvas
     extent = canvas.extent()
 
     # Calculate statistics for the current extent
-    band_statistics = raster_interface.bandStatistics(1, QgsRasterInterface.All, extent, 0)
-
+    band_statistics = provider.bandStatistics(1, QgsRasterBandStats.All, extent, 0)
+    mean = band_statistics.mean
     # Display the statistics in the message bar
-    if band_statistics.isValid():
+    if mean != '':
         iface.messageBar().pushMessage(
             "Raster Statistics",
             f"Average value within current extent: {band_statistics.mean}",
@@ -42,6 +37,6 @@ def show_statistics():
         )
     else:
         iface.messageBar().pushMessage("Error", "Failed to compute raster statistics.", level=Qgis.Warning)
-
-# Call the add_toolbar_button() function when the plugin is loaded
-add_toolbar_button(iface)
+action = QAction(QIcon('path_to_your_icon.png'), 'Show Raster Statistics')
+action.triggered.connect(show_statistics)
+iface.addToolBarIcon(action)
