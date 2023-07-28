@@ -1,2 +1,4 @@
 
 2023-07-27T17:19:27     SUCCESS    Success: : Output file written at C:\Users\BBEES\Downloads\pyqgis_masterclass\output.csv
+
+https://github.com/search?q=QGISAlgorithm&type=code
