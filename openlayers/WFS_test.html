@@ -32,10 +32,14 @@
         })
       });
 
-      var layers = [
+     var layers = [
         new ol.layer.Tile({
           source: new ol.source.OSM()
         }),
+        vector
+
+        
+       /*  ,
         new ol.layer.Tile({
             source: new ol.source.TileWMS({
             url: 'http://localhost:8080/geoserver/tiger/wms',
@@ -45,6 +49,8 @@
             transition: 0
           })
         })
+ */
+
       ];
       var map = new ol.Map({
         layers: layers,
