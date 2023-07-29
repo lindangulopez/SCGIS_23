@@ -74,3 +74,38 @@ var vectorSource = new ol.source.Vector({
         })
       });
 ```
+
+### reset credentials 
+- own server
+- own layer
+- own crs
+
+FROM
+
+```
+ var vectorSource = new ol.source.Vector({
+        format: new ol.format.GeoJSON(),
+        url: function(extent) {
+          return 'https://ahocevar.com/geoserver/wfs?service=WFS&' +
+              'version=1.1.0&request=GetFeature&typename=osm:water_areas&' +
+              'outputFormat=application/json&srsname=EPSG:3857&' +
+              'bbox=' + extent.join(',') + ',EPSG:3857';
+        },
+        strategy: ol.loadingstrategy.bbox
+      });
+
+```
+
+TO
+```
+var vectorSource = new ol.source.Vector({
+        format: new ol.format.GeoJSON(),
+        url: function(extent) {
+          return 'http://localhost:8080/geoserver/wfs?service=WFS&' +
+              'version=1.1.0&request=GetFeature&typename=tiger:tiger_roads&' +
+              'outputFormat=application/json&srsname=EPSG:4326&' +
+              'bbox=' + extent.join(',') + ',EPSG:4326';
+        },
+        strategy: ol.loadingstrategy.bbox
+      });
+```
