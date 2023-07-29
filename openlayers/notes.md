@@ -11,9 +11,9 @@
 Layer Preview
 List of all layers configured in GeoServer and provides previews in various formats for each.
 
-- http://localhost:8080/geoserver/tiger/wms?service=WMS&version=1.1.0&request=GetMap&layers=tiger%3Atiger_roads&bbox=-74.02722%2C40.684221%2C-73.907005%2C40.878178&width=476&height=768&srs=EPSG%3A4326&styles=&format=application/openlayers
+##### http://localhost:8080/geoserver/tiger/wms?service=WMS&version=1.1.0&request=GetMap&layers=tiger%3Atiger_roads&bbox=-74.02722%2C40.684221%2C-73.907005%2C40.878178&width=476&height=768&srs=EPSG%3A4326&styles=&format=application/openlayers
 
-
+## view source
   ```
   
 <!doctype html>
@@ -473,4 +473,4 @@ List of all layers configured in GeoServer and provides previews in various form
 
   ```
 
-- https://openlayers.org/en/v4.6.5/examples/wms-tiled.html?q=wms
+##### https://openlayers.org/en/v4.6.5/examples/wms-tiled.html?q=wms
