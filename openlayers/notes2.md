@@ -38,5 +38,9 @@ var map = new ol.Map({
         })
       });
 ```
+### delete old extent 
 
+```
+extent: [-13884991, 2870341, -7455066, 6338219],
+```
 
