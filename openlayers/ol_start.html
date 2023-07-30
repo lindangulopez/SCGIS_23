@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A Simple Map</title>
+    <link rel="stylesheet" href="http://openlayers.org/en/v3.16.0/css/ol.css" type="text/css">
+    <script src="http://openlayers.org/en/v3.16.0/build/ol.js"></script>
+  </head>
+  <body>
+    <div id="map" class="map"></div>
+    <script>
+ // Create the map 
+       var map = new ol.Map({
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          })
+        ],
+        target: 'map',
+        view: new ol.View({
+          center: [-9015705,4026797],
+          zoom: 11
+        })
+      });
+    </script>
+  </body>
+</html>

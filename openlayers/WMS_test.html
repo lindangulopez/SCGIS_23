@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tiled WMS</title>
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.6.5/css/ol.css" type="text/css">
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="https://openlayers.org/en/v4.6.5/build/ol.js"></script>
+  </head>
+  <body>
+    <div id="map" class="map"></div>
+    <script>
+      var vectorSource = new ol.source.Vector({
+        format: new ol.format.GeoJSON(),
+        url: function(extent) {
+          return 'http://localhost:8080/geoserver/wfs?service=WFS&' +
+              'version=1.1.0&request=GetFeature&typename=tiger:tiger_roads&' +
+              'outputFormat=application/json&srsname=EPSG:4326&' +
+              'bbox=' + extent.join(',') + ',EPSG:4326';
+        },
+        strategy: ol.loadingstrategy.bbox
+      });
+
+
+      var vector = new ol.layer.Vector({
+        source: vectorSource,
+        style: new ol.style.Style({
+          stroke: new ol.style.Stroke({
+            color: 'rgba(0, 0, 255, 1.0)',
+            width: 2
+          })
+        })
+      });
+
+      var layers = [
+        new ol.layer.Tile({
+          source: new ol.source.OSM()
+        }),
+        new ol.layer.Tile({
+            source: new ol.source.TileWMS({
+            url: 'http://localhost:8080/geoserver/tiger/wms',
+            params: {'LAYERS': 'tiger:tiger_roads', 'TILED': true},
+            serverType: 'geoserver',
+            // Countries have transparency, so do not fade tiles:
+            transition: 0
+          })
+        })
+      ];
+      var map = new ol.Map({
+        layers: layers,
+        target: 'map',
+        view: new ol.View({
+          center: [-73.907005, 40.878178],
+          projection:'EPSG:4326',
+          zoom: 12
+        })
+      });
+    </script>
+  </body>
+</html>
