@@ -109,3 +109,14 @@ var vectorSource = new ol.source.Vector({
         strategy: ol.loadingstrategy.bbox
       });
 ```
+
+## DEBUG CORS error
+
+```
+WFS_test.html:1 Access to XMLHttpRequest at 'http://localhost:8080/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=tiger:tiger_roads&outputFormat=application/json&srsname=EPSG:4326&bbox=-74.22809490699935,40.70048271301162,-73.58608135719466,41.055821763304586,EPSG:4326' from origin 'http://localhost' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+:8080/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=tiger:tiger_roads&outputFormat=application/json&srsname=EPSG:4326&bbox=-74.22809490699935,40.70048271301162,-73.58608135719466,41.055821763304586,EPSG:4326:1     Failed to load resource: net::ERR_FAILED
+```
+
+- edit : C:\Program Files\GeoServer\data_dir\webapps\geoserver\WEB-INF
+(need admin rights)
+  
