@@ -1,0 +1,45 @@
+
+Maria Zubkova <mzubkova@scgis.org>
+Attachments
+Mon, 14 Aug, 17:06 (6 days ago)
+to nuria.sl.im, bcc: me
+
+Hi everyone,
+
+Our workshop "Introduction to Lidar" is happening today! In the attachment of this email, you will find all the data you need for the workshop. Please, download and unzip it before the workshop starts. And as a reminder, we will be working in R studio. Please, make sure that you have a version compatible with the lidR, raster, and tidyverse packages and that these packages are installed.  
+
+Thank you for your interest in the workshop and for being a part of the 2023 International Annual SCGIS conference.
+
+See you in several hours.
+
+Dr. Nuria Sanchez,
+U.S. Forest Service
+nuria.sl.im@gmail.com
+
+On Fri, Aug 11, 2023 at 3:28 PM Maria Zubkova <mzubkova@scgis.org> wrote:
+Dear all, 
+
+ 
+
+First and foremost, thanks for signing up for the upcoming workshop on introduction to lidar that will be held this upcoming Monday.
+
+ 
+
+The workshop intends to provide an introduction to lidar technology, learn how to visualize and do some basic processing of airborne lidar 3D point clouds in LAS format.  The workshop will be divided into three main parts.
+
+1.       Introduction to lidar providing a general description of this remote sensing technology, basic concepts, and providing an overview of the main systems used for forest applications with special emphasis on airborne lidar.
+
+2.       Lidar data visualization exercise using the open-source software Fugro viewer.  To download and install the software please go to https://www.fugro.com/expertise/other-expertise/fugroviewer. You would need to fill in your information and you will be redirected to downloading the software. Once you have downloaded, unzip and run the ‘FugroViewerSetup.msi’ file to install.
+
+3.       LiDAR data processing in R studio using the lidR package to derive a digital terrain model, a digital surface model, and canopy height model. Please, make sure that you have a version compatible with the lidR, raster, and tidyverse packages and that these packages are installed.  
+
+Basic understanding of R language and familiarity with R studio is desired, as well as basic GIS concepts such as the difference between rasters, vectors, and understanding of basic spatial analysis tools (e.g., rasterize, clip, buffer). While R and R studio will be used on some of the examples and exercises performed during the workshop, the workshop is not designed to cover intensive programming and processing of large data lidar files in R. Please note that LAS files are relatively large compared to other remote sensing datasets and some steps might be slow depending on each machine capabilities.  The data and specific instructions for each of the exercises and slides will be provided before the workshop. Data used during the workshop will be <300 MB.
+
+
+
+Dr. Nuria Sanchez,
+
+U.S. Forest Service
+
+nuria.sl.im@gmail.com
+
