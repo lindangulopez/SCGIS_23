@@ -1,0 +1,23 @@
+
+Andy Lyons
+16 Aug 2023, 01:14 (4 days ago)
+to Ben, Leah
+
+Hi all,
+
+It was great seeing everyone at this morning's workshop on Working with Spatial Data in R Part2. A few quick follow-ups:
+
+I'd be grateful if you could complete the very short evaluation below. This will help me improve the workshop and help us plan trainings for future SCGIS conferences.
+https://forms.gle/MXqQcAvUFt4Z2s8w6
+The recording from this morning's workshop can be found at the link below. It will stay online for quite some time, but you are welcome to download a copy for posterity.
+https://vimeo.com/854832086 (pwd: 4567)
+
+As mentioned during the workshop, I'll be holding online office hours this Friday 8/18 from 9:20a - 11:20a for anyone who wants to chat more about anything R related, a project you're working on, etc. Sign-up for a time slot here.
+
+As a reminder, all of the workshop materials can be found at: https://ucanr-igis.github.io/rspatial_scgis23/. This website will stay online for quite some time as well, but you can also download the whole thing from GitHub (but I might suggest you wait until the weekend as I'll be making a few updates).
+Cheers,
+Andy
+
+Andy Lyons
+SCGIS 2023 Annual Conference Committee
+andlyons@ucanr.edu
