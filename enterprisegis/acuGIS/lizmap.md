@@ -10,6 +10,8 @@ Looking for a complete Lizmap hosting solution? Learn more at https://www.acugis
 
 https://youtu.be/5iT9VDKTxDM?si=XlVXb-5eiIvXvbKi
 
+https://www.youtube.com/@3lizgis/featured
+
 ### Lizmap 
 {
 
