@@ -48,3 +48,9 @@ Version 1.2.0:
 * Add phone number field (contribution from @effjot Florian Jenn)
 * Email links are now clickable
 * Connection names are now separated by `!!::!!` so that semicolons (former separator) can be used in connection names}
+
+  {Le schéma 'pgmetadata' n'est pas installé ou n'est pas configuré.
+
+Soit vous devez installer PgMetadata sur une base de données (Traitements → Base de données → Installation de la structure de la base de données) ou alors vous devez spécifier le lien vers une base de données PgMetadata existante (Traitements → Administration → Paramétrer les connexions aux base de données).
+
+Visiter la documentation sur docs.3liz.org pour vérifier comment installer PgMetadata.}
