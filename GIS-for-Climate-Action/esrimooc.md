@@ -20,4 +20,8 @@ Dr. Dawn Wright, Esri's Chief Scientist, and Dr. Katharine Hayhoe, a leading atm
 
 For more information on Dr. Hayhoe's work, visit www.katharinehayhoe.comOpens in new window.
 
+[Visualizing climate change](https://www.esri.com/training/mooc/player/645d6a07eb82fb767bb0c012/645d6ac3eb82fb767bb0c434/lessons/150631/)
+
+Scientists have been measuring weather variables like temperature and precipitation for more than a century. This historical data has allowed the creation of climate models that can be combined with GIS to visualize and plan for the future impacts of climate change.
+
 
