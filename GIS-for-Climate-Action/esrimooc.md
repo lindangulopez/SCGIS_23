@@ -28,6 +28,7 @@ Scientists have been measuring weather variables like temperature and precipitat
 The following lists include excellent course resources that may interest you.
 
 Web resources 
+
 [Esri's Climate Action site ](https://www.esri.com/en-us/about/climate-action/overview)
 [Project Drawdown ](https://drawdown.org/)
 [WMO State of the Global Climate 2022 report ](https://library.wmo.int/records/item/66214-state-of-the-global-climate-2022?offset=1)
@@ -35,15 +36,17 @@ Web resources
 
 
 Societies and organizations 
+
 [Intergovernmental Panel on Climate Change ](https://www.ipcc.ch/)
 [United Nations Climate Action ](https://www.un.org/en/climatechange)
 [World Meteorological Organization ](https://public.wmo.int/en)
-[World Economic Forum Centre for Nature and Climate  ](https://public.wmo.int/en](https://centres.weforum.org/centre-nature-and-climate/about)
+[World Economic Forum Centre for Nature and Climate  ](https://centres.weforum.org/centre-nature-and-climate/about)
 
 
 Blogs and newsletters
-[Esri Blog: Climate Action  ](https://public.wmo.int/en](https://www.esri.com/about/newsroom/esri-blog/department/climate-action/)
-[ArcGIS Blog: Official Global Climate Data Now in ArcGIS Living Atlas of the World  ](https://public.wmo.int/en](https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/mapping/global-climate-data-living-atlas/)
+
+[Esri Blog: Climate Action ](https://www.esri.com/about/newsroom/esri-blog/department/climate-action/)
+[ArcGIS Blog: Official Global Climate Data Now in ArcGIS Living Atlas of the World  ](https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/mapping/global-climate-data-living-atlas/)
 [Katharine Hayhoe's newsletter on Substack  ](https://public.wmo.int/en](https://substack.com/@katharinehayhoe)https://substack.com/@katharinehayhoe)
 
 
